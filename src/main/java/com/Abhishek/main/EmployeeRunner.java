@@ -21,9 +21,6 @@ public class EmployeeRunner {
 		Employee emp=new Employee(16,"Anshika","female",77000);
 		
 		
-		//edao.saveEmp(emp);
-		
-		//edao.updateEmp(emp);
 		
 		edao.deleteEmpById(4);
 		
