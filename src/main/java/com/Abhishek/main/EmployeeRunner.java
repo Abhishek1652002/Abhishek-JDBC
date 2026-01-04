@@ -18,14 +18,24 @@ public class EmployeeRunner {
 		
 		EmployeeDao edao=new EmployeeDaoImpl();
 		
-		Employee emp=new Employee(16,"Anshika","female",77000);
+		//Employee emp=new Employee(16,"Anshika","female",77000);
 		
 		
+<<<<<<< Updated upstream
 		//edao.saveEmp(emp);
 		
 		//edao.updateEmp(emp);
+=======
+       //  edao.printAllEmps();
+>>>>>>> Stashed changes
 		
-		edao.deleteEmpById(4);
+		//System.out.println(edao.getEmpById(10));
+		
+		//System.out.println(edao.getEmpByName("Atul"));
+		
+		edao.printEmpByName("Atul' or '1=1");
+		
+		//edao.deleteEmpById(4);
 		
 		
 		

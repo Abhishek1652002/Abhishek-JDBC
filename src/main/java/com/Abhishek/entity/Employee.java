@@ -29,6 +29,14 @@ public class Employee {
 
 
 
+	public Employee() {
+		
+	}
+
+
+
+
+
 	public int getId() {
 		return id;
 	}
